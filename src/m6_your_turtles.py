@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Ricardo Hernandez .
 """
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -27,3 +27,40 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+cool_turtle = rg.SimpleTurtle('turtle')
+cool_turtle.pen = rg.Pen('red', 4)
+cool_turtle.speed =  40
+
+size = 200
+
+for k in range(10):
+
+    cool_turtle.draw_square(size)
+    cool_turtle.pen_up()
+    cool_turtle.right(55)
+    cool_turtle.forward (20)
+    cool_turtle.left (55)
+    cool_turtle.pen_down()
+    size= size - 20
+
+
+
+circle_turtle = rg.SimpleTurtle('arrow')
+circle_turtle.pen = rg.Pen ('dark gray', 3)
+circle_turtle.speed = 30
+
+size= 100
+
+circle_turtle.left(110)
+
+for k in range (20):
+
+    circle_turtle.draw_regular_polygon(10, size)
+    size = size - 5
+
+
+
+window.close_on_mouse_click()
