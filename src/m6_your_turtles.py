@@ -36,7 +36,7 @@ cool_turtle.speed = 1000
 
 size = 200
 
-for k in range(40):
+for k in range(50):
 
     cool_turtle.draw_square(size)
     cool_turtle.pen_up()
@@ -44,6 +44,7 @@ for k in range(40):
     cool_turtle.forward (30)
     cool_turtle.left (30)
     cool_turtle.pen_down()
+
     size= size - 2
 
 
@@ -54,19 +55,23 @@ circle_turtle.pen_up()
 circle_turtle.left(90)
 circle_turtle.forward(50)
 circle_turtle.left(90)
-circle_turtle.forward(100)
+circle_turtle.forward(250)
 
 
-circle_turtle.speed = 30
+circle_turtle.speed = 100
 
-size= 100
+size= 50
 
 circle_turtle.pen_down()
 
-for k in range (20):
+for k in range (36):
 
     circle_turtle.draw_regular_polygon(10, size)
-    size = size - 5
+    circle_turtle.pen_up()
+    circle_turtle.right(10)
+    circle_turtle.pen_down()
+
+    size = size
 
 
 window.close_on_mouse_click()
