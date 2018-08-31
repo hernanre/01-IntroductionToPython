@@ -64,7 +64,7 @@ size= 50
 
 circle_turtle.pen_down()
 
-for k in range (36):
+for k in range(36):
 
     circle_turtle.draw_regular_polygon(10, size)
     circle_turtle.pen_up()
