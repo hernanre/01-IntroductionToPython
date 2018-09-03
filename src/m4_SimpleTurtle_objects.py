@@ -187,3 +187,4 @@ ricardo.draw_circle(100)
 # LAST line in the file.  DO NOT ADD CODE BELOW THIS LINE!
 # -----------------------------------------------------------------------------
 window.close_on_mouse_click()
+
