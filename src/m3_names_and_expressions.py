@@ -30,8 +30,8 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 rhit = 77 + math.cos(2.75)
-print (rhit)
-print (math.sqrt(rhit))
+print(rhit)
+print(math.sqrt(rhit))
 
 
 ###############################################################################
@@ -43,7 +43,7 @@ print (math.sqrt(rhit))
 ###############################################################################
 square = math.sqrt(41 * 88)
 circle = 4 * math.cos(2)
-print (square + circle)
+print(square + circle)
 ###############################################################################
 # DONE: 4.
 #   Immediately below this _TODO_,
@@ -53,8 +53,8 @@ print (square + circle)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-print (math.sqrt(2))
-print (2 ** 0.5)
+print(math.sqrt(2))
+print(2 ** 0.5)
 
 ###############################################################################
 # DONE: 5.
@@ -108,5 +108,4 @@ print(type(math.sin))
 print(type(print))
 print(type(math))
 print(type('math'))
-
 
