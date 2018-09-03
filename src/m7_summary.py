@@ -54,3 +54,4 @@ kale. left(180)
 kale.forward(150)
 
 window.close_on_mouse_click()
+
